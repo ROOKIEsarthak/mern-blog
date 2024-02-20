@@ -22,7 +22,5 @@ app.use(express.static("public"))
 
 import UserRouter from './src/routes/user.routes.js';
 
-app.use("/api/user",UserRouter)
-// app.post('/test',(req,res)=>{
-//     res.status(200).send(" Api is Working")
-// })
+app.use("/api/user",UserRouter) // test api
+
